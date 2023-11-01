@@ -8,3 +8,6 @@ edition = "2021"
 [dependencies]
 winit.workspace = true
 metal.workspace = true
+objc.workspace = true
+core-graphics-types.workspace = true
+cocoa.workspace = true
