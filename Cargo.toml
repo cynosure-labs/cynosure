@@ -1,6 +1,6 @@
 [workspace]
-members = ["engine", "run-wasm"]
-default-members=["engine", "run-wasm"]
+members = ["engine", "run-wasm", "examples/*"]
+default-members=["engine", "run-wasm", "examples/*"]
 
 [workspace.package]
 version = "0.1.0"
