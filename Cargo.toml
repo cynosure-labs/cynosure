@@ -1,0 +1,18 @@
+[workspace]
+members = ["engine", "run-wasm"]
+default-members=["engine", "run-wasm"]
+
+[workspace.package]
+version = "0.1.0"
+edition = "2021"
+license = "BSD3"
+authors = ["Kaifuny"]
+
+[workspace.dependencies]
+# Common
+winit = "0.29.2"
+
+# Metal
+metal = "0.27.0"
+objc = "0.2.7"
+core-graphics-types = "0.1.2"
