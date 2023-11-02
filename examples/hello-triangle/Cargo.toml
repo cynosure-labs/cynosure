@@ -2,8 +2,7 @@
 name = "hello-triangle"
 version = "0.1.0"
 edition = "2021"
-
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+targets = ["wasm32-unknown-unknown"]
 
 [dependencies]
 winit.workspace = true
@@ -11,8 +10,10 @@ metal.workspace = true
 objc.workspace = true
 core-graphics-types.workspace = true
 cocoa.workspace = true
-web-sys.workspace = true
+web-sys = { workspace = true, features = ["CanvasRenderingContext2d", "Blob"] }
 pollster.workspace = true
 wasm-bindgen-futures.workspace = true
 log.workspace = true
 env_logger.workspace = true
+console_log.workspace = true
+console_error_panic_hook.workspace = true

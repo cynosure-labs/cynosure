@@ -31,6 +31,7 @@ fn main() {
         .with_title("Hello, world!")
         .build(&event_loop)
         .unwrap();
+
     #[cfg(not(target_arch = "wasm32"))]
     {
         env_logger::init();
