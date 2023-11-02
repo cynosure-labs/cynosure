@@ -1,0 +1,7 @@
+[alias]
+tools = "run --manifest-path tools/Cargo.toml"
+
+[build]
+rustflags = [
+  "--cfg=web_sys_unstable_apis"
+]
