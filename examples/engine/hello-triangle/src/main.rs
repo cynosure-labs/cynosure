@@ -1,7 +1,7 @@
 use winit::{
     event::{Event, WindowEvent},
     event_loop::EventLoop,
-    window::{Window, WindowBuilder},
+    window::{Window, WindowBuilder}, raw_window_handle::HasDisplayHandle,
 };
 
 async fn run(event_loop: EventLoop<()>, window: Window) {
