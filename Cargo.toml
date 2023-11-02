@@ -1,6 +1,6 @@
 [workspace]
-members = ["engine", "examples/*"]
-default-members=["engine", "examples/*"]
+members = ["engine", "examples/engine/*"]
+default-members=["engine", "examples/engine/*"]
 
 [workspace.package]
 version = "0.1.0"
@@ -24,6 +24,7 @@ cocoa = "0.24.0"
 # Web
 cargo-run-wasm = "0.3.0"
 web-sys = "0.3.64"
+wasm-bindgen = "0.2"
 wasm-bindgen-futures = "0.4.37"
 console_log = "1.0.0"
 console_error_panic_hook = "0.1.7"
