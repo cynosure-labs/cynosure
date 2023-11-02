@@ -1,7 +1,7 @@
 #![allow(dead_code)]
 
 const HELP: &str = "\
-Tools
+Cynosure Tools
 
 USAGE:
   tools [OPTIONS] --number NUMBER [INPUT]
