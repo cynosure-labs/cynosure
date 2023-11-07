@@ -10,10 +10,12 @@ authors = ["Kaifuny"]
 
 [workspace.dependencies]
 # Common
-winit = "0.29.2"
 pollster = "0.3.0"
 log = "0.4.0"
 env_logger = "0.9.0"
+
+# Window
+winit = "0.29.2"
 
 # Metal
 metal = "0.27.0"
